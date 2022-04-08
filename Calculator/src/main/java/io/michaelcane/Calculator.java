@@ -3,7 +3,7 @@ package io.michaelcane;
 
 public class Calculator {
 
-    Commands commands = new Commands();
+    //Commands commands = new Commands();
 
     /**
      * Failed to go over methods that require their return to be degrees or radians.
@@ -49,6 +49,13 @@ public class Calculator {
          * This method should square a value (double) provided by the user.
          */
         return value1 * value1;
+    }
+
+    public static double cube(double value1) {
+        /**
+         * This method should cube a value (double) provided by the user.
+         */
+        return value1 * value1 * value1;
     }
 
     public static double squareRoot(double value1) {
@@ -161,10 +168,10 @@ public class Calculator {
         System.out.println("ERROR - You broke the universe");
     }
 
-    public void itsTimeForTheCalculator() {
-        commands.giveCommand(Commands.Command.COSINE);
-        commands.doTheThing();
-    }
+//    public void itsTimeForTheCalculator() {
+//        commands.giveCommand(Commands.Command.COSINE);
+//        commands.doTheThing();
+//    }
 
 
 
