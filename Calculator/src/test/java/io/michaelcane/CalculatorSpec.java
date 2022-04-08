@@ -75,7 +75,7 @@ public class CalculatorSpec {
     @Test
     public void test$cube() {
         /**
-         * This method should square a value (double) provided by the user.
+         * This method should cube a value (double) provided by the user.
          */
         double expectedValue = 8;
         double actualValue = calculator.cube(2);
