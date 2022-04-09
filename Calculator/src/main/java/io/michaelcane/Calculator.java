@@ -4,7 +4,7 @@ package io.michaelcane;
 public class Calculator {
 
     //Commented to avoid cyclic dependency
-    Commands commands = new Commands();
+//    Commands commands = new Commands();
 
     /**
      * Failed to go over methods that require their return to be degrees or radians.
@@ -171,10 +171,10 @@ public class Calculator {
     }
 
 //    Commented to avoid cyclic dependency
-    public void itsTimeForTheCalculator() {
-        commands.giveCommand(Commands.Command.COSINE);
-        commands.doTheThing();
-    }
+//    public void itsTimeForTheCalculator() {
+//        commands.giveCommand(Commands.Command.COSINE);
+//        commands.doTheThing();
+//    }
 
 }
 
