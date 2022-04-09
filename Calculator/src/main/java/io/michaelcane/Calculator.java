@@ -3,6 +3,7 @@ package io.michaelcane;
 
 public class Calculator {
 
+    //Commented to avoid cyclic dependency
     //Commands commands = new Commands();
 
     /**
@@ -51,6 +52,7 @@ public class Calculator {
         return value1 * value1;
     }
 
+    //QMHW3 changes
     public static double cube(double value1) {
         /**
          * This method should cube a value (double) provided by the user.
@@ -168,12 +170,11 @@ public class Calculator {
         System.out.println("ERROR - You broke the universe");
     }
 
+//    Commented to avoid cyclic dependency
 //    public void itsTimeForTheCalculator() {
 //        commands.giveCommand(Commands.Command.COSINE);
 //        commands.doTheThing();
 //    }
-
-
 
 }
 

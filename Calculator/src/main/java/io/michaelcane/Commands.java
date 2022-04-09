@@ -93,6 +93,7 @@ public class Commands {
             case SQUARE:
                 calculator.square(user.isNumber);
                 break;
+            //QMHW3 changes
             case CUBE:
                 calculator.cube(user.isNumber);
                 break;

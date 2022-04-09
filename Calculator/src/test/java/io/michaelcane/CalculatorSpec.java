@@ -72,6 +72,7 @@ public class CalculatorSpec {
         assertEquals("This should evaluate to 4", expectedValue, actualValue, delta);
     }
 
+    //QMHW3 changes
     @Test
     public void test$cube() {
         /**
