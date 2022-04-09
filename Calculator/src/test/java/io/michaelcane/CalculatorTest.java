@@ -79,7 +79,7 @@ public class CalculatorTest {
          * This method should cube a value (double) provided by the user.
          */
         double expectedValue = 8;
-        double actualValue = calculator.cube(2.0);
+        double actualValue = calculator.cube(2);
         assertEquals("This should evaluate to 8", expectedValue, actualValue, delta);
     }
 
