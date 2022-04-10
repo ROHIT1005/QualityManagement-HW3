@@ -170,11 +170,11 @@ public class Calculator {
         System.out.println("ERROR - You broke the universe");
     }
 
-//    Commented to avoid cyclic dependency
-//    public void itsTimeForTheCalculator() {
-//        commands.giveCommand(Commands.Command.COSINE);
-//        commands.doTheThing();
-//    }
+    //    Commented to avoid cyclic dependency
+    //    public void itsTimeForTheCalculator() {
+    //        commands.giveCommand(Commands.Command.COSINE);
+    //        commands.doTheThing();
+    //    }
 
 }
 
